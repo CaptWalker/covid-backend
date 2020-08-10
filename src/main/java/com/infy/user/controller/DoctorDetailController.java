@@ -1,7 +1,5 @@
 package com.infy.user.controller;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
@@ -35,24 +33,6 @@ public class DoctorDetailController {
 	public ResponseEntity<DoctorDetailDTO> getDoctorById(@PathVariable String doctorId) throws Exception{
 		DoctorDetailDTO doctorDetailDTO= doctorDetailServiceImpl.getDoctorById(doctorId);
 		ResponseEntity<DoctorDetailDTO>  responseEntity = new ResponseEntity<DoctorDetailDTO>(doctorDetailDTO,HttpStatus.CREATED);
-		return responseEntity;
-		}
-	@GetMapping("/getDoctorByCity/{city}")
-	public ResponseEntity<List<DoctorDetailDTO>> getDoctorByCity(@PathVariable String city) throws Exception{
-		List<DoctorDetailDTO> doctorDetailDTOs= doctorDetailServiceImpl.getDoctorByCity(city);
-		ResponseEntity<List<DoctorDetailDTO>>  responseEntity = new ResponseEntity<List<DoctorDetailDTO>>(doctorDetailDTOs,HttpStatus.CREATED);
-		return responseEntity;
-		}
-	@GetMapping("/getDoctorBySpecialist/{specialist}")
-	public ResponseEntity<List<DoctorDetailDTO>> getDoctorBySpecialist(@PathVariable String specialist) throws Exception{
-		List<DoctorDetailDTO> doctorDetailDTOs= doctorDetailServiceImpl.getDoctorBySpecialist(specialist);
-		ResponseEntity<List<DoctorDetailDTO>>  responseEntity = new ResponseEntity<List<DoctorDetailDTO>>(doctorDetailDTOs,HttpStatus.CREATED);
-		return responseEntity;
-		}
-	@GetMapping("/getCity/{state}")
-	public ResponseEntity<List<String>> getCity(@PathVariable String state) throws Exception{
-		List<String> cities= doctorDetailServiceImpl.getCity(state);
-		ResponseEntity<List<String>>  responseEntity = new ResponseEntity<List<String>>(cities,HttpStatus.CREATED);
 		return responseEntity;
 		}
 	

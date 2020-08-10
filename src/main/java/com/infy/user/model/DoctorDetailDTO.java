@@ -66,6 +66,30 @@ public class DoctorDetailDTO {
 	public void setState(String state) {
 		this.state = state;
 	}
+	
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((doctorId == null) ? 0 : doctorId.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		DoctorDetailDTO other = (DoctorDetailDTO) obj;
+		if (doctorId == null) {
+			if (other.doctorId != null)
+				return false;
+		} else if (!doctorId.equals(other.doctorId))
+			return false;
+		return true;
+	}
 	public static DoctorDetail doctorDetailDTOConvertDoctorDetail(DoctorDetailDTO doctorDetailDTO) {
 		DoctorDetail doctorDetail = new DoctorDetail();
 		doctorDetail.setDoctorId(doctorDetailDTO.getDoctorId());

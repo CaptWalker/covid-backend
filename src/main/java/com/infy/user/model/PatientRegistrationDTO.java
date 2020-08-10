@@ -42,7 +42,31 @@ public class PatientRegistrationDTO {
 	public void setCovidDataList(ArrayList<CovidData> covidDataList) {
 		this.covidDataList = covidDataList;
 	}
-	public static PatientRegistration patientRegistrationDTOConvertPatientRegistrationDTO(PatientRegistrationDTO patientRegistrationDTO) {
+	
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((patientId == null) ? 0 : patientId.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		PatientRegistrationDTO other = (PatientRegistrationDTO) obj;
+		if (patientId == null) {
+			if (other.patientId != null)
+				return false;
+		} else if (!patientId.equals(other.patientId))
+			return false;
+		return true;
+	}
+	public static PatientRegistration patientRegistrationDTOConvertPatientRegistration(PatientRegistrationDTO patientRegistrationDTO) {
 		PatientRegistration patientRegistration = new PatientRegistration();
 		patientRegistration.setPatientId(patientRegistrationDTO.getPatientId());
 		patientRegistration.setPatientPhysicalAndMedicalDetails(patientRegistrationDTO.getPatientPhysicalAndMedicalDetails());

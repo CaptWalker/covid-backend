@@ -1,0 +1,16 @@
+{
+	"firstName": "John",
+	"lastName": "Snow",
+	"email": "john.snow@gmail.com",
+	"password": "JohnSnow"
+	"dateOfBirth": "1990-03-30",
+	"mobileNo": "9876543210",
+	"aadhar": "999988887777",
+	"address": {
+		"address1": "H No  22, 6th lane",
+		"address2": "Gandhi Colony",
+		"city": "Mumbai",
+		"pincode": "400004",
+		"state": "Maharashtra"
+	}
+}

@@ -5583,3 +5583,231 @@ java.lang.NullPointerException
 
 10-Aug-2020 12:06:36.356  INFO  [http-nio-8080-exec-7] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idP3
 
+10-Aug-2020 20:02:30.635  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 20:03:17.399  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 20:09:54.840  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 20:09:55.131  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 20:26:28.776  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 20:26:28.999  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 20:55:03.176  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 20:58:08.576  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 20:59:29.871  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 20:59:30.039  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 20:59:30.168  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:08:23.733  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:08:23.933  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:08:24.055  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:08:24.233  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:15:05.344  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:15:05.455  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:15:05.561  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:15:05.623  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation0
+
+10-Aug-2020 21:15:05.697  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:16:07.175  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation1
+
+10-Aug-2020 21:16:42.684  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:16:42.788  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:16:42.881  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:16:42.946  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation1
+
+10-Aug-2020 21:16:43.023  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:21:51.969  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:21:52.103  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:21:52.210  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:21:52.329  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation1
+
+10-Aug-2020 21:21:52.414  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:21:52.455  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByNameAndmobileNumberAndEmailAddress] - In UserRegistration Controller,Registration is fetched with NameJohn
+
+10-Aug-2020 21:29:17.014  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:29:17.101  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:29:17.192  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:29:17.316  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation1
+
+10-Aug-2020 21:29:17.391  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:29:17.449  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByNameAndmobileNumberAndEmailAddress] - In UserRegistration Controller,Registration is fetched with NameJohn
+
+10-Aug-2020 21:32:24.133  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:32:24.246  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:32:24.373  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:32:24.507  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:32:24.600  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation1
+
+10-Aug-2020 21:32:24.679  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:32:24.729  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByNameAndmobileNumberAndEmailAddress] - In UserRegistration Controller,Registration is fetched with NameJohn
+
+10-Aug-2020 21:39:23.377  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:39:23.546  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:39:23.651  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:39:23.734  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:39:23.795  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation1
+
+10-Aug-2020 21:39:23.883  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:39:23.924  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByNameAndmobileNumberAndEmailAddress] - In UserRegistration Controller,Registration is fetched with NameJohn
+
+10-Aug-2020 21:46:44.731  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:46:44.854  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:46:45.012  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:46:45.079  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:46:45.143  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation1
+
+10-Aug-2020 21:46:45.230  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:46:45.277  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByNameAndmobileNumberAndEmailAddress] - In UserRegistration Controller,Registration is fetched with NameJohn
+
+10-Aug-2020 21:47:14.210  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idD1
+
+10-Aug-2020 21:47:27.458  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:47:27.613  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:47:27.751  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idD1
+
+10-Aug-2020 21:47:27.840  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:47:27.919  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:47:27.994  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation1
+
+10-Aug-2020 21:47:28.061  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:47:28.110  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByNameAndmobileNumberAndEmailAddress] - In UserRegistration Controller,Registration is fetched with NameJohn
+
+10-Aug-2020 21:47:28.185  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientWithPhysicalDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:48:07.316  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:48:07.467  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:48:07.602  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idD1
+
+10-Aug-2020 21:48:07.665  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:48:07.739  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:48:07.810  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation1
+
+10-Aug-2020 21:48:07.881  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:48:07.940  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByNameAndmobileNumberAndEmailAddress] - In UserRegistration Controller,Registration is fetched with NameJohn
+
+10-Aug-2020 21:48:08.043  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientWithPhysicalDetail] - In UserRegistration Controller,Registration is updated with idP1
+
+10-Aug-2020 21:50:15.203  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:50:15.300  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:50:15.403  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idD1
+
+10-Aug-2020 21:50:15.462  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:50:15.543  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:50:15.612  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation1
+
+10-Aug-2020 21:50:15.710  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:50:15.754  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByNameAndmobileNumberAndEmailAddress] - In UserRegistration Controller,Registration is fetched with NameJohn
+
+10-Aug-2020 21:50:15.855  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientWithPhysicalDetail] - In UserRegistration Controller,Registration is updated with idP1
+
+10-Aug-2020 21:50:44.296  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:50:44.413  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:50:44.509  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idD1
+
+10-Aug-2020 21:50:44.562  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:50:44.621  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:50:44.675  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation1
+
+10-Aug-2020 21:50:44.730  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:50:44.762  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByNameAndmobileNumberAndEmailAddress] - In UserRegistration Controller,Registration is fetched with NameJohn
+
+10-Aug-2020 21:50:44.834  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientWithPhysicalDetail] - In UserRegistration Controller,Registration is updated with idP1
+
+10-Aug-2020 21:52:06.464  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:52:06.597  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:52:06.718  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idD1
+
+10-Aug-2020 21:52:06.776  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:52:06.830  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:52:06.884  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation1
+
+10-Aug-2020 21:52:06.943  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:52:06.985  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByNameAndmobileNumberAndEmailAddress] - In UserRegistration Controller,Registration is fetched with NameJohn
+
+10-Aug-2020 21:52:07.048  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientWithPhysicalDetail] - In UserRegistration Controller,Registration is updated with idP1
+
+10-Aug-2020 21:52:35.531  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientRegistrationDetail] - In UserRegistration Controller,Registration is updated with idnull
+
+10-Aug-2020 21:52:35.604  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByDoctorID] - In UserRegistration Controller,patientList is fetched with Doctor idD1
+
+10-Aug-2020 21:52:35.708  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idD1
+
+10-Aug-2020 21:52:35.774  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientById] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:52:35.849  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByEmail] - In UserRegistration Controller,Registration is fetched with idP1
+
+10-Aug-2020 21:52:35.923  INFO  [main] com.infy.user.controller.PatientRegistrationController [getAllPatient] - In UserRegistration Controller,patientList is fetched with NO Doctor ALlocation1
+
+10-Aug-2020 21:52:35.997  INFO  [main] com.infy.user.controller.PatientRegistrationController [addUser] - In UserRegistration Controller,Registration is persisted with idP1
+
+10-Aug-2020 21:52:36.037  INFO  [main] com.infy.user.controller.PatientRegistrationController [getPatientByNameAndmobileNumberAndEmailAddress] - In UserRegistration Controller,Registration is fetched with NameJohn
+
+10-Aug-2020 21:52:36.127  INFO  [main] com.infy.user.controller.PatientRegistrationController [updatePatientWithPhysicalDetail] - In UserRegistration Controller,Registration is updated with idP1
+

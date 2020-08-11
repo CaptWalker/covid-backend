@@ -5,6 +5,8 @@ import java.util.List;
 
 import org.springframework.data.annotation.Transient;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 public class CovidData {
 	@Transient
 	private String patientId;
@@ -13,6 +15,7 @@ public class CovidData {
 	private Character bcgVaccine;
 	private Character fluVaccine;
 	private List<String> specimenType;
+	@JsonFormat(shape = JsonFormat.Shape.STRING,pattern ="yyyy-MM-dd",timezone="IST")
 	private Date collectionDate;
 	private Long sampleId;
 	private String patientCategory;

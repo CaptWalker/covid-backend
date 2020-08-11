@@ -54,7 +54,7 @@ public class PatientRegistrationController {
 		String id = patientRegistrationService.updatePatientRegistrationDetail(patientRegistrationDetail, patientId);
 		String message=environment.getProperty("UserRegistrationController.UPDATE_USER")+id;
 		Result result = new Result(message);
-		ResponseEntity<Result> responseEntity= new ResponseEntity<>(result,HttpStatus.CREATED);
+		ResponseEntity<Result> responseEntity= new ResponseEntity<>(result,HttpStatus.OK);
 		LOGGER.info("In UserRegistration Controller,Registration is updated with id"+id);
 		return responseEntity;
 	}
@@ -106,7 +106,7 @@ public class PatientRegistrationController {
 		String id = patientRegistrationService.updatePatientWithPhysicalDetail(patientRegistrationDTO);
 		String message=environment.getProperty("UserRegistrationController.UPDATE_USER")+id;
 		Result result = new Result(message);
-		ResponseEntity<Result> responseEntity= new ResponseEntity<>(result,HttpStatus.CREATED);
+		ResponseEntity<Result> responseEntity= new ResponseEntity<>(result,HttpStatus.OK);
 		LOGGER.info("In UserRegistration Controller,Registration is updated with id"+id);
 		return responseEntity;
 	}

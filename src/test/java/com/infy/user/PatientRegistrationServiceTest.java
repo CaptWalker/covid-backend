@@ -36,7 +36,7 @@ import com.infy.user.service.SequenceGeneratorService;
 @SuppressWarnings("deprecation")
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class PatientRegisterationServiceTest {
+public class PatientRegistrationServiceTest {
 	@Mock
 	private DoctorDetailServiceImpl doctorDetailServiceImpl;
 	@Mock

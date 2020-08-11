@@ -1,7 +1,6 @@
 package com.infy.user.model;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import com.infy.user.entities.PatientRegistration;
 

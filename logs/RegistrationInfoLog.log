@@ -5874,3 +5874,5 @@ java.lang.Exception: UserRegistrationService.NO_USER_FOUND
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:813)
 
+11-Aug-2020 12:11:34.662  INFO  [http-nio-9080-exec-1] com.infy.user.controller.PatientRegistrationController [updatePatientWithPhysicalDetail] - In UserRegistration Controller,Registration is updated with idP3
+

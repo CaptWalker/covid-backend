@@ -7,6 +7,6 @@ RUN mvn package
 FROM openjdk:8-jre-alpine
 WORKDIR /app
 COPY --from=MAVEN_BUILD /build/target/*.jar /app/app.jar
-ENV HOST=0.0.0.0 PORT=8080
-EXPOSE 8080/tcp
+ENV HOST=0.0.0.0 PORT=3000
+EXPOSE 3000/tcp
 ENTRYPOINT ["java", "-jar", "app.jar"]

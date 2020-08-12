@@ -35,7 +35,7 @@ public class PatientRegistrationController {
 	@Autowired
 	DoctorDetailServiceImpl doctorDetailServiceImpl;
 	private static final Logger LOGGER= LogManager.getLogger();
-	@RequestMapping("/")
+	@RequestMapping("/health")
 	@ResponseBody
 	public String home() {
 		return "User Registration Service is up and running";
